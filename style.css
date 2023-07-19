@@ -1,0 +1,166 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+ :root {
+     --firstColor: #f0f0f0;
+     --secondColor: #cb3931;
+ }
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+
+
+ body {
+     min-height: 100vh;
+     position: relative;
+     padding: 100px;
+     display: grid;
+     place-items: center;
+ }
+
+ .second-section {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 40%;
+     background-color: var(--secondColor);
+ }
+
+
+
+ .box {
+     z-index: 1;
+     background-color: #fff;
+     box-shadow: 1px 1px 12px 0px #333;
+     width: 50%;
+
+ }
+
+ .box header {}
+
+ .box header .s1 {
+     position: relative;
+     padding: 40px;
+ }
+
+ .box header .s1 p {
+     width: 200px;
+     font-size: 13px;
+     color: var(--secondColor);
+ }
+
+ .box header .s1 img {
+     width: 250px;
+     height: 270px;
+     object-fit: cover;
+     position: absolute;
+     right: 100px;
+     top: 0;
+ }
+
+ .box header .s2 {
+     padding-left: 40px;
+ }
+
+ .box header .s2 .content {
+     background-color: var(--firstColor);
+     padding: 30px;
+     padding-top: 80px;
+     display: flex;
+ }
+
+ .box header .s2 .content .name {
+     flex: 1;
+ }
+
+
+
+ .box header .s2 .content .name h1 {
+     font-size: 37px;
+ }
+
+ .box header .s2 .content .name p {
+     text-transform: uppercase;
+     font-size: 17px;
+     font-weight: bold;
+     color: var(--secondColor);
+ }
+
+ .box header .s2 .content .infos {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ .box header .s2 .content .infos ul.informations {
+     margin-top: 20px;
+ }
+
+ .box header .s2 .content .infos ul.informations li {
+     color: var(--secondColor);
+     font-size: 11px;
+     font-weight: bold;
+ }
+
+ .box header .s2 .content .infos ul.icons {
+     display: flex;
+     justify-content: flex-end;
+     gap: 20px;
+     align-self: self-end;
+ }
+
+ .box header .s2 .content .infos ul.icons i {}
+
+ .box footer {
+     padding: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 40px;
+ }
+
+ .box footer .item {
+     display: flex;
+     flex-direction: column;
+     gap: 20px
+ }
+
+ .box footer .item .title {
+     font-weight: bold;
+     font-size: 20px;
+     color: var(--secondColor);
+ }
+
+ .box footer .item .part {}
+
+ .box footer .item .part .period {
+     font-weight: bold;
+     font-size: smaller;
+ }
+
+ .box footer .item .part .job {
+     font-size: smaller;
+ }
+
+ .box footer .item .part .job strong {}
+
+ .box footer .item .part .job span {
+     color: var(--secondColor);
+     font-weight: bold;
+ }
+
+ .box footer .item .part .desc {
+     font-size: 11px;
+     color: #777;
+ }
